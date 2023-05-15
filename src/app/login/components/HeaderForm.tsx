@@ -1,5 +1,5 @@
-'use client';
-import { IconActivity } from '@tabler/icons-react';
+'use client'
+import { IconActivity } from '@tabler/icons-react'
 
 export default function HeaderForm() {
   return (
@@ -7,5 +7,5 @@ export default function HeaderForm() {
       <IconActivity color="green" />
       <h1>Health Services</h1>
     </header>
-  );
+  )
 }

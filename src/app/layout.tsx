@@ -1,9 +1,9 @@
-import './globals.css';
+import './globals.css'
 
 export const metadata = {
   title: 'Health Services',
   description: 'Healthcare services',
-};
+}
 
 export default function RootLayout({
   children,
@@ -14,5 +14,5 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body suppressHydrationWarning={true}>{children}</body>
     </html>
-  );
+  )
 }

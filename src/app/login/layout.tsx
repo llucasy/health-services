@@ -1,9 +1,9 @@
-import HeaderForm from './components/HeaderForm';
+import HeaderForm from './components/HeaderForm'
 
 export const metadata = {
   title: 'Login',
   description: 'Healthcare services - Login',
-};
+}
 
 export default function LoginLayout({
   children,
@@ -15,5 +15,5 @@ export default function LoginLayout({
       <HeaderForm />
       {children}
     </main>
-  );
+  )
 }
